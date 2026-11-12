@@ -1,0 +1,16 @@
+name: Feature request
+description: An idea that would make ToppedUp better for you
+labels: ["enhancement"]
+body:
+  - type: textarea
+    id: idea
+    attributes:
+      label: Your idea
+      description: What would you like ToppedUp to do?
+    validations:
+      required: true
+  - type: textarea
+    id: why
+    attributes:
+      label: Why it matters to you
+      description: How you ride or train, and what this would solve.

@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Help with your account or subscription
+    url: https://toppedup.cc/faq.html
+    about: Answers to common questions, and how to reach us
+  - name: Security issue
+    url: https://github.com/Chainline-Studio/toppedup-app/blob/main/SECURITY.md
+    about: Report it privately, not in a public issue

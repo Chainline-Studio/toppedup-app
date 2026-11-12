@@ -1,0 +1,28 @@
+name: Bug report
+description: Something in ToppedUp doesn't work as it should
+labels: ["bug"]
+body:
+  - type: textarea
+    id: what
+    attributes:
+      label: What happens?
+      description: What you see. A screenshot helps.
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: What did you expect?
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to see it
+      placeholder: "1. Open ...\n2. Tap ..."
+  - type: input
+    id: device
+    attributes:
+      label: Device and app version
+      placeholder: iPhone 15, iOS 26.1, ToppedUp 1.0.0
+  - type: markdown
+    attributes:
+      value: Please don't share passwords, health data or other personal details here. This page is public.
